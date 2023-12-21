@@ -1,11 +1,14 @@
 <template>
+  <!-- Display for an individual shopping list item -->
   <div class="flex items-center justify-between bg-white p-2 rounded shadow mb-2">
-    <!-- Item Name -->
-    <span :class="{ 'line-through': item.purchased }">{{ item.name }}</span>
+    <!-- Item Name with optional quantity -->
+    <span :class="{ 'line-through': item.purchased }">
+      <span v-if="quantity">{{ quantity }} - </span>{{ item.name }}    
+    </span>
 
-    <!-- Toggle Purchase Status -->
-    <button @click="togglePurchased" class="text-sm font-bold py-1 px-2 rounded text-blue-500 hover:text-blue-700">
-      {{ item.purchased ? 'Unmark' : 'Mark' }}
+    <!-- Button to toggle purchase status -->
+    <button @click="togglePurchased" class="text-sm font-bold py-1 px-2 rounded text-indigo-500 hover:text-indigo-700">
+      {{ item.purchased ? 'Uncheck' : 'Check' }}
     </button>
   </div>
 </template>
@@ -18,11 +21,13 @@ export default {
       type: Object,
       required: true
     },
-    listId: Number
+    quantity: Number, 
+    listId: Number     
   },
   methods: {
+    // Toggle the purchased status of the item
     togglePurchased() {
-
+      // Make an API call to update the purchased status of the item
       fetch(`http://localhost:3000/lists/${this.listId}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
@@ -30,8 +35,7 @@ export default {
       })
         .then(response => response.json())
         .then(() => {
-          this.item.purchased = !this.item.purchased;
-          this.$emit('ItemUpdated');
+          this.$emit('ItemUpdated', this.item.id);
         })
         .catch(error => console.error('Error:', error));
     }
@@ -40,4 +44,3 @@ export default {
 </script>
   
 <style></style>
-  
