@@ -204,7 +204,6 @@ export default {
   transition: background-color 0.2s ease-in-out;
 }
 
-/* Hover effects maintaining original colors */
 .remove-item-button:hover {
   background-color: #805ad5;
 }
@@ -230,7 +229,6 @@ export default {
   background-color: #718096;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .list-container {
     width: 100%;

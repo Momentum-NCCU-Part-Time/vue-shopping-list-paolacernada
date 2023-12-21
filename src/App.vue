@@ -86,7 +86,7 @@ export default {
 }
 
 .add-list-button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 10px 24px;
@@ -114,5 +114,4 @@ export default {
   justify-content: center;
 }
 
-/* Additional styles if needed */
 </style>
