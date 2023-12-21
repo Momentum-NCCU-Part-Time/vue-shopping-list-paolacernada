@@ -1,51 +1,110 @@
 {
   "lists": [
     {
-      "id": 1,
-      "title": "Sample shopping list",
+      "title": "Shopping List",
       "items": [
         {
-          "id": 1,
-          "item-name": "toilet paper",
+          "id": 1702762419405.0293,
+          "name": "Water Bottle",
+          "purchased": false,
+          "quantity": 0
+        },
+        {
+          "id": 1702762498813.0562,
+          "name": "Monk Fruit",
+          "purchased": false
+        },
+        {
+          "id": 1702764059905,
+          "name": "Dress",
+          "purchased": false
+        },
+        {
+          "id": 1702777608818,
+          "name": "Soda",
+          "quantity": 0,
           "purchased": false
         }
       ],
-      "updatedAt": "2018-01-01T00:00:00.000Z"
-    },
-    {
-      "title": "Buy Cheese",
-      "items": [
-        {
-          "name": "5",
-          "purchased": false
-        }
-      ],
-      "updatedAt": "2023-12-16T18:22:19.870Z",
-      "id": 2,
+      "updatedAt": "2023-12-17T01:47:13.642Z",
+      "id": 10,
       "purchased": false
     },
     {
-      "title": "Buy Cheese",
+      "title": "Target",
       "items": [
         {
-          "name": "5",
+          "id": 1702762538389.779,
+          "name": "Toilet Paper",
           "purchased": false
+        },
+        {
+          "id": 1702762543026.5652,
+          "name": "Paper Towels",
+          "purchased": false
+        },
+        {
+          "id": 1702762547279.4143,
+          "name": "Airborne ",
+          "purchased": false
+        },
+        {
+          "id": 1702762555846.0662,
+          "name": "Kombucha",
+          "purchased": false,
+          "quantity": 3
         }
       ],
-      "updatedAt": "2023-12-16T18:28:07.357Z",
-      "id": 3,
+      "updatedAt": "2023-12-16T23:55:53.097Z",
+      "id": 11,
       "purchased": false
     },
     {
-      "title": "Ham",
+      "title": "Walmart",
       "items": [
         {
-          "name": "Cheede",
+          "id": 1702762601468.8428,
+          "name": "Luggage",
+          "purchased": false
+        },
+        {
+          "id": 1702762606903.855,
+          "name": "Xbox",
+          "purchased": false
+        },
+        {
+          "id": 1702762612293.3733,
+          "name": "PJs",
+          "purchased": false
+        },
+        {
+          "id": 1702777660023,
+          "name": "5",
+          "quantity": "",
+          "purchased": false
+        },
+        {
+          "id": 1702777666621,
+          "name": "5",
+          "quantity": 0,
           "purchased": false
         }
       ],
-      "updatedAt": "2023-12-16T18:28:34.465Z",
-      "id": 4,
+      "updatedAt": "2023-12-17T01:47:47.924Z",
+      "id": 12,
+      "purchased": false
+    },
+    {
+      "title": "Amazon",
+      "items": [
+        {
+          "id": 1702770749202.0498,
+          "name": "Shorts",
+          "purchased": false
+        }
+      ],
+      "updatedAt": "2023-12-16T23:52:33.043Z",
+      "id": 13,
       "purchased": false
     }
   ]
