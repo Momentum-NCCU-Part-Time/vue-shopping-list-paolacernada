@@ -153,7 +153,7 @@ export default {
     },
     // Add a new item to the editable list
     addItem() {
-      this.editableList.items.push({ id: Date.now(), name: '', quantity: 0, purchased: false });
+      this.editableList.items.push({ id: Date.now(), name: '', quantity: '', purchased: false });
       this.editableList = Object.assign({}, this.editableList);
     },
     // Remove an item from the editable list by index

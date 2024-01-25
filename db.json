@@ -4,107 +4,103 @@
       "title": "Shopping List",
       "items": [
         {
-          "id": 1702762419405.0293,
+          "id": 1706222587188.962,
           "name": "Water Bottle",
-          "purchased": false,
-          "quantity": 0
+          "quantity": "",
+          "purchased": false
         },
         {
-          "id": 1702762498813.0562,
+          "id": 1706222593200.6624,
           "name": "Monk Fruit",
+          "quantity": "",
           "purchased": false
         },
         {
-          "id": 1702764059905,
-          "name": "Dress",
+          "id": 1706222598205.1052,
+          "name": "Avocados",
+          "quantity": 10,
           "purchased": false
         },
         {
-          "id": 1702777608818,
-          "name": "Soda",
-          "quantity": 0,
+          "id": 1706222604688.511,
+          "name": "Onions",
+          "quantity": 2,
           "purchased": false
         }
       ],
-      "updatedAt": "2023-12-17T01:47:13.642Z",
-      "id": 10,
-      "purchased": false
+      "updatedAt": "2024-01-25T22:43:37.797Z",
+      "id": 15,
+      "purchased": true
     },
     {
       "title": "Target",
       "items": [
         {
-          "id": 1702762538389.779,
+          "id": 1706222887673.9817,
           "name": "Toilet Paper",
+          "quantity": "",
           "purchased": false
         },
         {
-          "id": 1702762543026.5652,
+          "id": 1706222939954,
           "name": "Paper Towels",
-          "purchased": false
+          "quantity": "",
+          "purchased": ""
         },
         {
-          "id": 1702762547279.4143,
-          "name": "Airborne ",
-          "purchased": false
+          "id": 1706222949737,
+          "name": "Airborne",
+          "quantity": "",
+          "purchased": ""
         },
         {
-          "id": 1702762555846.0662,
+          "id": 1706222955651,
           "name": "Kombucha",
-          "purchased": false,
-          "quantity": 3
+          "quantity": 5,
+          "purchased": ""
         }
       ],
-      "updatedAt": "2023-12-16T23:55:53.097Z",
-      "id": 11,
-      "purchased": false
+      "updatedAt": "2024-01-25T22:49:24.376Z",
+      "id": 16,
+      "purchased": true
     },
     {
       "title": "Walmart",
       "items": [
         {
-          "id": 1702762601468.8428,
-          "name": "Luggage",
-          "purchased": false
-        },
-        {
-          "id": 1702762606903.855,
+          "id": 1706223272954.8335,
           "name": "Xbox",
-          "purchased": false
-        },
-        {
-          "id": 1702762612293.3733,
-          "name": "PJs",
-          "purchased": false
-        },
-        {
-          "id": 1702777660023,
-          "name": "5",
           "quantity": "",
           "purchased": false
         },
         {
-          "id": 1702777666621,
-          "name": "5",
-          "quantity": 0,
+          "id": 1706223288433,
+          "name": "Luggage",
+          "quantity": "",
+          "purchased": false
+        },
+        {
+          "id": 1706223293280,
+          "name": "PJs",
+          "quantity": "",
           "purchased": false
         }
       ],
-      "updatedAt": "2023-12-17T01:47:47.924Z",
-      "id": 12,
-      "purchased": false
+      "updatedAt": "2024-01-25T22:55:00.841Z",
+      "id": 17
     },
     {
       "title": "Amazon",
       "items": [
         {
-          "id": 1702770749202.0498,
-          "name": "Shorts",
+          "id": 1706223321000.0913,
+          "name": "HDMI Cables",
+          "quantity": 4,
           "purchased": false
         }
       ],
-      "updatedAt": "2023-12-16T23:52:33.043Z",
-      "id": 13,
+      "updatedAt": "2024-01-25T22:55:31.185Z",
+      "id": 18,
       "purchased": false
     }
   ]
