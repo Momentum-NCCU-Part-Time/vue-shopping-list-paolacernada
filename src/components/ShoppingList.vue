@@ -109,10 +109,6 @@ export default {
         })
         .catch(error => console.error('Error:', error));
     },
-    // Toggle the purchased state of an item
-    togglePurchased(item) {
-      item.purchased = !item.purchased;
-    },
     // Handle updates to individual list items
     handleItemUpdated(itemId) {
       const itemIndex = this.list.items.findIndex(i => i.id === itemId);

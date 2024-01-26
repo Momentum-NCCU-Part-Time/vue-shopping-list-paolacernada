@@ -30,7 +30,7 @@
       ],
       "updatedAt": "2024-01-25T22:43:37.797Z",
       "id": 15,
-      "purchased": true
+      "purchased": false
     },
     {
       "title": "Target",
@@ -62,7 +62,7 @@
       ],
       "updatedAt": "2024-01-25T22:49:24.376Z",
       "id": 16,
-      "purchased": true
+      "purchased": false
     },
     {
       "title": "Walmart",
@@ -87,7 +87,8 @@
         }
       ],
       "updatedAt": "2024-01-25T22:55:00.841Z",
-      "id": 17
+      "id": 17,
+      "purchased": false
     },
     {
       "title": "Amazon",
